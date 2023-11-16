@@ -1,0 +1,35 @@
+sequenceDiagram
+    autonumber
+    participant Usuário as U
+    participant Repositório Central as RC
+
+    Note over U, RC: Caminho Feliz
+
+    U->RC: Registro no Repositório
+    RC->U: Autenticação
+    U->RC: Padrões Mínimos de Desenvolvimento
+    RC->U: Feedback
+    U->RC: Estrutura do Repositório
+    RC->U: Feedback
+    U->RC: Inclusão do Sistema
+    RC->U: Feedback
+    U->RC: Testes Automatizados
+    RC->U: Feedback
+    U->RC: Integração Contínua
+    RC->U: Feedback
+    U->RC: Revisão por Pares
+    RC->U: Feedback
+    U->RC: Gestão de Versões
+    RC->U: Feedback
+    U->RC: Documentação Completa
+    RC->U: Feedback
+    U->RC: Gestão de Dependências e Atualizações
+    RC->U: Feedback
+    U->RC: Build e Deploy
+    RC->U: Feedback
+    U->RC: Segurança da Aplicação e Testes de Segurança
+    RC->U: Feedback
+    U->RC: Monitoramento Pós-Lançamento
+    RC->U: Feedback
+    U->RC: Feedback e Melhoria Contínua
+    RC->U: Sistema Incluído
